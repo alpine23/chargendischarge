@@ -13,12 +13,9 @@
         crossorigin="anonymous" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" crossorigin="anonymous">
     </script>
-
     <script type="text/javascript" src="jquery/jquery.min.js"></script>
-    <!--load otomatis/ realtime-->
     <script type="text/javascript">
     $(document).ready(function() {
-
         setInterval(function() {
             $("#ceksuhu").load("ceksuhu.php");
         }, 1000);
@@ -47,30 +44,23 @@
     .background-image {
         background-image: url('gedung.jpg');
         background-size: cover;
-        /* Menyesuaikan ukuran gambar agar sesuai dengan div */
         background-position: center;
-        /* Memposisikan gambar di tengah div */
         border: 1px solid #ccc;
         height: 980px;
         padding: 315px;
-        /* Atur tinggi agar gambar dapat terlihat */
         color: white;
-        /* Atur warna teks agar terlihat */
         z-index: 0;
     }
 
     .nav-container {
         display: flex;
         justify-content: center;
-        /* Atur untuk menjajarkan ke kanan */
     }
 
     .nav-link {
         margin-left: 10px;
-        /* Jarak antar button */
         text-decoration: none;
         color: black;
-        /* Warna teks, sesuaikan dengan kebutuhan */
     }
 
     *::after,
@@ -112,7 +102,6 @@
         transition: all 0.5s linear;
     }
 
-    /* the inset brings the box-shadow from the inside */
     .window_slide:hover {
         box-shadow: inset 8rem 0 0 0 var(--color), inset -8rem 0 0 0 var(--color);
         color: var(--hover-b);
@@ -153,20 +142,16 @@
     }
     </style>
 
-
 </head>
-
 <body class="sb-nav-fixed">
-
     <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
         <a class="navbar-brand" href="index.html">
             <div id="time-date"></div>
             <script src="date.js"></script>
         </a>
-
         <button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" href="#"><i
-                class="fas fa-bars"></i></button>
-
+                class="fas fa-bars"></i>
+        </button>
     </nav>
     <div id="layoutSidenav">
         <div id="layoutSidenav_nav">
@@ -205,10 +190,8 @@
                     <ol class="breadcrumb mb-4">
                         <li class="breadcrumb-item active">Dashboard</li>
                     </ol>
-                    <!-- Tombol 1 -->
                     <div>
                         <div class="nav-container">
-
                         </div>
                     </div>
 
@@ -235,7 +218,6 @@
                                 </div>
                                 <div class="card-body">
                                     <div style="display: flex; flex-wrap: wrap;">
-                                        <!-- Baris B1 dan B2 -->
                                         <div class="card text-center" style="width: 20%">
                                             <div class="card-header">
                                                 <h5>
@@ -265,7 +247,6 @@
                                                 </div>
                                             </div>
                                         </div>
-
                                         <div class="card text-center" style="width: 20%">
                                         <div class="card-header">
                                                 <h5>
@@ -295,8 +276,6 @@
                                                 </div>
                                             </div>
                                         </div>
-
-                                        <!-- Baris B3 dan B4 -->
                                         <div class="card text-center" style="width: 20%">
                                         <div class="card-header">
                                                 <h5>
@@ -326,7 +305,6 @@
                                                 </div>
                                             </div>
                                         </div>
-
                                         <div class="card text-center" style="width: 20%">
                                         <div class="card-header">
                                                 <h5>
@@ -356,7 +334,6 @@
                                                 </div>
                                             </div>
                                         </div>
-
                                         <div class="card text-center" style="width: 20%">
                                         <div class="card-header">
                                                 <h5>
@@ -386,16 +363,10 @@
                                                 </div>
                                             </div>
                                         </div>
-
-
-
-                                        <!-- Ulangi pola untuk B5-B10 -->
-
                                     </div>
                                 </div>
                                 <div class="card-body">
                                     <div style="display: flex; flex-wrap: wrap;">
-                                        <!-- Baris B1 dan B2 -->
                                         <div class="card text-center" style="width: 20%">
                                         <div class="card-header">
                                                 <h5>
@@ -425,7 +396,6 @@
                                                 </div>
                                             </div>
                                         </div>
-
                                         <div class="card text-center" style="width: 20%">
                                         <div class="card-header">
                                                 <h5>
@@ -455,8 +425,6 @@
                                                 </div>
                                             </div>
                                         </div>
-
-                                        <!-- Baris B3 dan B4 -->
                                         <div class="card text-center" style="width: 20%">
                                         <div class="card-header">
                                                 <h5>
@@ -486,7 +454,6 @@
                                                 </div>
                                             </div>
                                         </div>
-
                                         <div class="card text-center" style="width: 20%">
                                         <div class="card-header">
                                                 <h5>
@@ -516,7 +483,6 @@
                                                 </div>
                                             </div>
                                         </div>
-
                                         <div class="card text-center" style="width: 20%">
                                         <div class="card-header">
                                                 <h5>
@@ -546,16 +512,10 @@
                                                 </div>
                                             </div>
                                         </div>
-
-
-
-                                        <!-- Ulangi pola untuk B5-B10 -->
-
                                     </div>
                                 </div>
                                 <div class="card-body">
                                     <div style="display: flex;">
-                                        <!-- Tabel Menampilkan nilai Arus -->
                                         <div class="card text-center" style="width: 50%">
                                             <div class="card-header">
                                                 <i class="fas fa-water mr-1"></i>
@@ -564,11 +524,7 @@
                                             <div class="card-body">
                                                 <h3> <span id="cekarus"> 0 </span> </h3>
                                             </div>
-
                                         </div>
-                                        <!-- Tabel Akhir Menampilkan nilai Temperature -->
-
-                                        <!-- Tabel Menampilkan nilai Temperature -->
                                         <div class="card text-center" style="width: 50%">
                                             <div class="card-header">
                                                 <i class="fas fa-solid fa-bolt mr-1"></i>
@@ -577,23 +533,16 @@
                                             <div class="card-body">
                                                 <h3> <span id="cektotalvoltage"> 0 </span> </h3>
                                             </div>
-
                                         </div>
                                     </div>
-                                    <!-- Tabel Akhir Menampilkan nilai Suhu -->
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
-
-
-
         </div>
     </div>
     </div>
-
     </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous">
@@ -605,5 +554,4 @@
     <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script>
     <script src="assets/demo/datatables-demo.js"></script>
 </body>
-
 </html>
