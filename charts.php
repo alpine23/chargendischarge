@@ -214,7 +214,7 @@ $koneksi->close();
                                                 fill: false
                                             },
                                             {
-                                                label: 'Humidity',
+                                                label: 'Voltage',
                                                 data: humidityData,
                                                 borderColor: 'rgba(90, 255, 0, 1)',
                                                 borderWidth: 1,
