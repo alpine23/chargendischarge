@@ -61,7 +61,6 @@
                         <center>
                             <h1 class="mt-4">About Us</h1>
                         </center>
-                       
                         <ol class="breadcrumb mb-4">
                             <li class="breadcrumb-item"><a href="home.php">Dashboard</a></li>
                             <li class="breadcrumb-item active">About Us</li>
@@ -129,7 +128,7 @@
                     <audio controls autoplay>
                       <source src="lagu.mp3" type="audio/mpeg">
                     </audio>
-                  </div>
+                </div>
             </div>
         </div>
         

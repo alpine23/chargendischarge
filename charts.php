@@ -126,7 +126,7 @@ $koneksi->close();
             <main>
                 <div class="container-fluid">
                     <center>
-                        <h1 class="mt-4">Humidity & Temperature</h1>
+                        <h1 class="mt-4">Temperature & Voltage</h1>
                     </center>
 
                     <ol class="breadcrumb mb-4">

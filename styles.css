@@ -1502,7 +1502,7 @@ pre code {
 
   .col-xl-6 {
     flex: 0 0 50%;
-    max-width: 50%;
+    max-width: 100%;
   }
 
   .col-xl-7 {
